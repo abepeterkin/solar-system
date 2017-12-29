@@ -32,7 +32,7 @@ anime({
     value: '3turn',
     loop: true,
     easing: 'linear',
-  },
+  }
 })
 
 anime({

@@ -6,7 +6,7 @@ body {
 
 .orbits-svg {
   position: absolute;
-  left: 50%; 
+  left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
@@ -22,12 +22,11 @@ body {
   background-color: yellow;
   width: 100px;
   height: 100px;
-  left: 50%; 
+  left: 50%;
   top: 50%;
-  box-shadow: 
+  box-shadow:
     0 0 40px yellow,
-    inset 0 0 40px red,
-    0 0 ;
+    inset 0 0 40px red;
 }
 
 .mercury {
@@ -60,8 +59,7 @@ body {
   background-color: skyblue;
   width: 30px;
   height: 30px;
-  box-shadow: 
-    inset 0 0 5px blue;
+  box-shadow: inset 0 0 5px blue;
 }
 
 .moon {
@@ -78,7 +76,5 @@ body {
   height: 25px;
   margin-left: -12.5px;
   margin-top: -12.5px;
-  box-shadow:
-    inset 0 0 5px black;
-  ;
+  box-shadow: inset 0 0 5px black;
 }
