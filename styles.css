@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: black;
+  background-image: url("star-background.jpg");
+}
+
+.orbits-svg {
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.astro-body {
+  border-radius: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.sun {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  left: 50%; 
+  top: 50%;
+}
+
+.mercury {
+  background-color: grey;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.venus {
+  background-color: lightgray;
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+.earth-moon-system {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  transform-origin: 0 0;
+  z-index: 1;
+}
+
+.earth {
+  background-color: green;
+  width: 30px;
+  height: 30px;
+}
+
+.moon {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  margin-left: 30px;
+}
+
+.mars {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  margin-left: -12.5px;
+  margin-top: -12.5px;
+}

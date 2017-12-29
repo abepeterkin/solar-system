@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Solar System</title>
+  <meta name="description" content="Solar System with anime.js">
+  <meta name="author" content="Abe Peterkin">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="astro-body sun"></div>
+  <div class="astro-body mercury"></div>
+  <div class="astro-body venus"></div>
+  <div class="earth-moon-system">
+    <div class="astro-body earth"></div>
+    <div class="astro-body moon"></div>
+  </div>
+  <div class="astro-body mars"></div>
+
+  <svg class="orbits-svg" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <circle class="mercury-orbit" cx="50%" cy="50%" r="100" fill="transparent" stroke='white' stroke-width='1'/>
+    <circle class="venus-orbit" cx="50%" cy="50%" r="170" fill="transparent" stroke='white' stroke-width='1'/>
+    <circle class="earth-orbit" cx="50%" cy="50%" r="230" fill="transparent" stroke='white' stroke-width='1'/>
+    <circle class="mars-orbit" cx="50%" cy="50%" r="290" fill="transparent" stroke='white' stroke-width='1'/>
+  </svg>
+  
+  <script src="anime.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
